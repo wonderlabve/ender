@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ender Colina · Makeup, Hair & Content</title>
+  <meta name="description" content="Ender Colina — maquillador y hairstylist en Caracas con más de 10 años de experiencia. Makeup Artist del Año en Beauty Fair Awards 2024 y 2025. Portafolio, servicios, media kit para marcas y vlog.">
+  <meta property="og:title" content="Ender Colina · Makeup, Hair & Content">
+  <meta property="og:description" content="No makeup, makeup. 10+ años, 29.9K seguidores y un TikTok con 465.7K views. Caracas, Venezuela.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter+Tight:wght@500;600;700;800;900&family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+  <div class="cursor" id="cursor" aria-hidden="true"></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav-wrap">
+    <nav class="nav" aria-label="Principal">
+      <a href="#inicio" class="brand"><span class="brand-dot"></span>ENDER</a>
+      <div class="nav-links" id="navLinks">
+        <a href="#inicio" class="active">Inicio</a>
+        <a href="#firma">Sobre mí</a>
+        <a href="#portafolio">Portafolio</a>
+        <a href="#marcas">Marcas</a>
+        <a href="#dia">Mi día</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+      <a href="#contacto" class="nav-cta">Reservar <span aria-hidden="true">→</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span></button>
+    </nav>
+  </header>
+
+  <main class="page">
+
+    <!-- ============ HERO (editorial, ref. Karo) ============ -->
+    <section class="kx" id="inicio">
+      <div class="kx-left">
+        <h1 class="kx-title"><span class="kx-l">Ender</span><span class="kx-l">Colina<sup>( 10+ años )</sup></span></h1>
+        <p class="kx-micro">( Caracas, VE )</p>
+        <div class="kx-row">
+          <p class="kx-sub">Ender es maquillador, hairstylist<br>y creador de contenido en Caracas.</p>
+          <a href="#contacto" class="pill-xl">Reservar</a>
+        </div>
+        <p class="kx-desc">No makeup, makeup. Dos veces Makeup Artist del Año (Beauty Fair Awards ’24 · ’25). Piel real, cero exceso.</p>
+      </div>
+      <div class="kx-right">
+        <div class="ph kx-photo" style="--img:url('img/hero.jpg')" role="img" aria-label="Ender Colina, portada de Evas Magazine"><span class="ph-label">img/hero.jpg</span></div>
+        <svg class="chrome" viewBox="0 0 100 100" aria-hidden="true">
+          <defs>
+            <linearGradient id="chr" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#ffffff"/><stop offset=".28" stop-color="#bcd6f2"/><stop offset=".5" stop-color="#6d4a3a"/><stop offset=".62" stop-color="#f3eee6"/><stop offset=".85" stop-color="#8fb3dc"/><stop offset="1" stop-color="#ffffff"/>
+            </linearGradient>
+          </defs>
+          <path d="M50 2 C54 34 66 46 98 50 C66 54 54 66 50 98 C46 66 34 54 2 50 C34 46 46 34 50 2 Z" fill="url(#chr)" stroke="#fff" stroke-width=".8"/>
+        </svg>
+        <a class="kx-sticker" href="#marcas">465.7K<small>views · récord TikTok</small></a>
+      </div>
+    </section>
+
+    <!-- ============ ¿QUIÉN ERES? ============ -->
+    <section class="paths" id="caminos" aria-label="Elige tu camino">
+      <a href="#portafolio" class="card path reveal">
+        <span class="path-ico">💄</span>
+        <div><span class="eyebrow">Quiero maquillarme</span><h3>Ver su trabajo y reservar</h3><p>Portafolio, servicios y agenda.</p></div>
+        <span class="path-go">→</span>
+      </a>
+      <a href="#marcas" class="card path path-dark reveal">
+        <span class="path-ico">📈</span>
+        <div><span class="eyebrow">Soy una marca</span><h3>Ver números y colaborar</h3><p>Views, likes e interacción por plataforma.</p></div>
+        <span class="path-go">→</span>
+      </a>
+      <a href="#dia" class="card path path-blue reveal">
+        <span class="path-ico">🎬</span>
+        <div><span class="eyebrow">Me encanta su contenido</span><h3>Un día con Ender</h3><p>Vlogs, planes en Caracas y su vida.</p></div>
+        <span class="path-go">→</span>
+      </a>
+    </section>
+
+    <!-- ============ STATS ============ -->
+    <section class="stats">
+      <div class="card stat reveal">
+        <span class="eyebrow">✦ Trayectoria</span>
+        <b class="stat-num" data-count="10" data-suffix="+">10+</b>
+        <p>Años de experiencia creando pieles que parecen piel</p>
+      </div>
+      <div class="card stat reveal">
+        <span class="eyebrow">★ Premios</span>
+        <b class="stat-num">2×</b>
+        <p>Makeup Artist del Año · Beauty Fair Awards 2024 y 2025</p>
+      </div>
+      <div class="card stat reveal">
+        <span class="eyebrow">♥ Comunidad</span>
+        <b class="stat-num" data-count="29.9" data-dec="1" data-suffix="K">29.9K</b>
+        <p>Seguidores en Instagram, TikTok y YouTube</p>
+      </div>
+      <div class="card stat stat-dark reveal">
+        <span class="eyebrow">▶ Alcance</span>
+        <b class="stat-num" data-count="465.7" data-dec="1" data-suffix="K">465.7K</b>
+        <p>Views en un solo TikTok · 45× sus seguidores</p>
+      </div>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>[ No makeup, makeup ]</span><i>☆</i><span>[ Piel real ]</span><i>✦</i><span>[ Menos es más ]</span><i>☆</i><span>[ Una sola brocha ]</span><i>✦</i><span>[ Caracas 📍 ]</span><i>☆</i><span>[ No makeup, makeup ]</span><i>☆</i><span>[ Piel real ]</span><i>✦</i><span>[ Menos es más ]</span><i>☆</i><span>[ Una sola brocha ]</span><i>✦</i><span>[ Caracas 📍 ]</span><i>☆</i>
+      </div>
+    </div>
+
+    <!-- ============ MENSAJE (ref. Lando) ============ -->
+    <section class="mf" aria-label="Mensaje de Ender">
+      <span class="eyebrow">✦ Mensaje de Ender</span>
+      <p class="mf-text reveal">Realzando <em>pieles</em>, peinando <em>historias</em> y contándolo <em>todo</em>. Construyendo una firma dentro y fuera del set.</p>
+      <div class="mf-strip">
+        <figure><div class="ph" style="--img:url('img/p1.jpg')"></div><figcaption>Editorial · foto @micloss</figcaption></figure>
+        <figure><div class="ph" style="--img:url('img/hero.jpg')"></div><figcaption>Hard Rock Café, Caracas</figcaption></figure>
+        <figure><div class="ph" style="--img:url('img/style.jpg')"></div><figcaption>Casa Dudamel, 2026</figcaption></figure>
+        <figure><div class="ph" style="--img:url('img/p4.jpg')"></div><figcaption>96.7K likes, 2026</figcaption></figure>
+      </div>
+    </section>
+
+    <!-- ============ SOBRE MÍ ============ -->
+    <section class="about" id="firma">
+      <div class="ph about-img reveal" style="--img:url('img/about.jpg')" role="img" aria-label="Ender Colina">
+        <span class="ph-label">img/about.jpg</span>
+        <div class="float chip-brush">🖌️ <b>1 sola brocha</b><small>skincare → base → bronzer</small></div>
+      </div>
+      <div class="card about-copy reveal">
+        <span class="eyebrow">✦ Sobre mí</span>
+        <h2 class="display-md">Soy Ender Colina,<br>artista de la piel real.</h2>
+        <p>Llevo más de 10 años maquillando y para mí el maquillaje es autoexpresión. Mi sello es el <strong>“no makeup, makeup”</strong>: realzar la belleza natural con un acabado impecable, sin esconder a nadie detrás de las capas. Fuera del set, cuento todo en mis vlogs: campañas, clientas, eventos y la vida en Caracas.</p>
+        <ol class="steps">
+          <li><span>01</span><div><b>Piel primero</b><p>El skincare es la base de todo buen maquillaje.</p></div></li>
+          <li><span>02</span><div><b>Una sola brocha</b><p>Del skincare al bronzer para lograr una armonía de color perfecta.</p></div></li>
+          <li><span>03</span><div><b>Menos es más</b><p>Producto en capas ligeras, poco a poco, hasta que se vea como tu piel.</p></div></li>
+        </ol>
+        <div class="blob blob-b" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <!-- ============ TRAYECTORIA + SÍ / NO ============ -->
+    <section class="section" id="carrera">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">✦ Trayectoria</span>
+          <h2 class="display-md">Más de 10 años<br>construyendo una <em>firma</em>.</h2>
+        </div>
+      </div>
+      <div class="milestones">
+        <article class="ms ms-gold"><span class="ms-k">2024</span><h3>Makeup Artist del Año</h3><p>Beauty Fair Awards.</p></article>
+        <article class="ms ms-gold"><span class="ms-k">2025</span><h3>Makeup Artist del Año</h3><p>Beauty Fair Awards, por segundo año seguido.</p></article>
+        <article class="ms"><span class="ms-k">Portada</span><h3>Evas Magazine</h3><p>Portada fotografiada en Hard Rock Café, Caracas.</p></article>
+        <article class="ms"><span class="ms-k">Artistas</span><h3>Hairstylist personal</h3><p>De la artista @fabiartist, además de makeup & hair para Ana K y otras clientas.</p></article>
+        <article class="ms"><span class="ms-k">Editorial</span><h3>Campañas y shootings</h3><p>Con fotógrafos como @micloss, @vicperezph y @durangabrielphoto, y agencias como The Model Issue.</p></article>
+        <article class="ms ms-blue"><span class="ms-k">Sep 2026</span><h3>Viral en TikTok</h3><p>465.7K views y 22.1K compartidos en un solo video.</p></article>
+      </div>
+
+      <div class="yesno">
+        <div class="yn yn-yes">
+          <h3>Lo que <em>sí</em> hago</h3>
+          <ul>
+            <li>Makeup y peinado para novias, eventos y fiestas.</li>
+            <li>Editoriales, campañas, pasarela y shootings.</li>
+            <li>Hairstylist personal para artistas y figuras públicas.</li>
+            <li>Contenido para marcas: reels, TikTok, vlogs e integraciones.</li>
+            <li>Clases 1:1 de automaquillaje con tus productos.</li>
+          </ul>
+        </div>
+        <div class="yn yn-no">
+          <h3>Lo que <em>no</em> hago</h3>
+          <ul>
+            <li>Maquillaje pesado que esconda tu piel.</li>
+            <li>Copiar un look sin adaptarlo a tu cara y tu evento.</li>
+            <li>Recomendar productos que no he probado.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ UNIVERSO ============ -->
+    <section class="section" id="universo">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">✦ El universo de Ender</span>
+          <h2 class="display-md">Un solo artista,<br><em>muchos</em> lenguajes.</h2>
+        </div>
+        <div class="arrows">
+          <button class="arrow" data-dir="-1" aria-label="Anterior">←</button>
+          <button class="arrow arrow-dark" data-dir="1" aria-label="Siguiente">→</button>
+        </div>
+      </div>
+
+      <div class="rail" id="rail">
+        <article class="u-card u-latte">
+          <div class="u-top"><span class="pill">Profesión</span><span class="pill">Novias · Social</span></div>
+          <h3>Makeup</h3>
+          <p>Piel luminosa, color en armonía y acabado impecable que dura toda la noche.</p>
+          <div class="ph u-img" style="--img:url('img/makeup.jpg')"><span class="ph-label">img/makeup.jpg</span><a href="#portafolio" class="u-more">Ver looks <b>→</b></a></div>
+        </article>
+        <article class="u-card u-caramel">
+          <div class="u-top"><span class="pill">Hair</span><span class="pill">Peinados</span></div>
+          <h3>Arreglos</h3>
+          <p>Ondas, recogidos y peinados. Su post de cabello llegó a 96.7K likes.</p>
+          <div class="ph u-img" style="--img:url('img/hair.jpg')"><span class="ph-label">img/hair.jpg</span><a href="#servicios" class="u-more">Servicios <b>→</b></a></div>
+        </article>
+        <article class="u-card u-baby">
+          <div class="u-top"><span class="pill">Moda</span><span class="pill">Styling</span></div>
+          <h3>Style</h3>
+          <p>Outfits, tendencias y dirección de imagen para shootings y el día a día.</p>
+          <div class="ph u-img" style="--img:url('img/style.jpg')"><span class="ph-label">img/style.jpg</span><a href="#redes" class="u-more">@enderrrcolina <b>→</b></a></div>
+        </article>
+        <article class="u-card u-dark">
+          <div class="u-top"><span class="pill pill-inv">Movimiento</span><span class="pill pill-inv">Reels</span></div>
+          <h3>Baile</h3>
+          <p>Porque el estilo también se mueve. Coreos, trends y mucha actitud.</p>
+          <div class="ph u-img" style="--img:url('img/baile.jpg')"><span class="ph-label">img/baile.jpg</span><a href="#redes" class="u-more">Ver reels <b>→</b></a></div>
+        </article>
+        <article class="u-card u-choco">
+          <div class="u-top"><span class="pill">YouTube</span><span class="pill">Vlog semanal</span></div>
+          <h3>Vlog</h3>
+          <p>Campañas, clientas, eventos y la vida en Caracas, cada semana.</p>
+          <div class="ph u-img" style="--img:url('img/vlog.jpg')"><span class="ph-label">img/vlog.jpg</span><a href="#dia" class="u-more">Ver vlogs <b>→</b></a></div>
+        </article>
+        <article class="u-card u-sky">
+          <div class="u-top"><span class="pill">Marcas</span><span class="pill">UGC</span></div>
+          <h3>Contenido</h3>
+          <p>Planes, reseñas y campañas para belleza, moda, comida y lifestyle.</p>
+          <div class="ph u-img" style="--img:url('img/contenido.jpg')"><span class="ph-label">img/contenido.jpg</span><a href="#marcas" class="u-more">Media kit <b>→</b></a></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ PORTAFOLIO (clientes) ============ -->
+    <section class="section" id="portafolio">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">✦ Portafolio</span>
+          <h2 class="display-md">Looks que <em>hablan</em> solos.</h2>
+        </div>
+        <div class="filters" role="tablist">
+          <button class="filter active" data-filter="all">Todo</button>
+          <button class="filter" data-filter="editorial">Editorial</button>
+          <button class="filter" data-filter="social">Social</button>
+          <button class="filter" data-filter="hair">Hair</button>
+        </div>
+      </div>
+      <div class="grid grid-4">
+        <a class="g-item g-tall" data-cat="editorial" href="https://www.instagram.com/p/DJSjprmuWbn/" target="_blank" rel="noopener"><div class="ph" style="--img:url('img/p1.jpg')"><span class="ph-label">img/p1.jpg</span></div><span class="cap">Pecas reales <span>Foto @micloss</span></span></a>
+        <a class="g-item g-tall" data-cat="social" href="https://www.instagram.com/p/DR5XlYDkecP/" target="_blank" rel="noopener"><div class="ph" style="--img:url('img/p2.jpg')"><span class="ph-label">img/p2.jpg</span></div><span class="cap">Makeup & hair · Ana K <span>@durangabrielphoto</span></span></a>
+        <a class="g-item g-tall" data-cat="editorial" href="https://www.instagram.com/p/Dc_12oJGtnq/" target="_blank" rel="noopener"><div class="ph" style="--img:url('img/p3.jpg')"><span class="ph-label">img/p3.jpg</span></div><span class="cap">Unposted 💋 <span>Foto @vicperezph</span></span></a>
+        <a class="g-item g-tall" data-cat="hair" href="https://www.instagram.com/p/DczG-Rtj61o/" target="_blank" rel="noopener"><div class="ph" style="--img:url('img/p4.jpg')"><span class="ph-label">img/p4.jpg</span></div><span class="cap">96.7K likes ♥ <span>Foto @vicperezph</span></span></a>
+      </div>
+    </section>
+
+    <!-- ============ SERVICIOS (clientes) ============ -->
+    <section class="section" id="servicios">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">✦ Servicios</span>
+          <h2 class="display-md">Reserva tu <em>momento</em>.</h2>
+        </div>
+      </div>
+      <div class="services">
+        <article class="card svc reveal">
+          <span class="svc-ico">💍</span>
+          <h3>Novias</h3>
+          <p>Prueba previa, makeup y peinado el gran día. Piel que resiste lágrimas, abrazos y fiesta.</p>
+          <div class="svc-foot"><span class="pill">Makeup + Hair</span><a href="#contacto">Consultar →</a></div>
+        </article>
+        <article class="card svc reveal">
+          <span class="svc-ico">✨</span>
+          <h3>Social & eventos</h3>
+          <p>Graduaciones, galas, cumpleaños y cualquier noche que merezca brillar.</p>
+          <div class="svc-foot"><span class="pill">A domicilio</span><a href="#contacto">Consultar →</a></div>
+        </article>
+        <article class="card svc reveal">
+          <span class="svc-ico">📸</span>
+          <h3>Editorial & pasarela</h3>
+          <p>Makeup, hair y styling para campañas, shootings y desfiles.</p>
+          <div class="svc-foot"><span class="pill">Moda</span><a href="#contacto">Consultar →</a></div>
+        </article>
+        <article class="card svc svc-dark reveal">
+          <span class="svc-ico">🎤</span>
+          <h3>Hairstylist personal</h3>
+          <p>Para artistas, figuras públicas y giras: look listo para cada aparición.</p>
+          <div class="svc-foot"><span class="pill pill-inv">Artistas</span><a href="#contacto">Consultar →</a></div>
+        </article>
+        <article class="card svc reveal">
+          <span class="svc-ico">🖌️</span>
+          <h3>Clases 1:1</h3>
+          <p>Aprende mi técnica “no makeup, makeup” con tus propios productos.</p>
+          <div class="svc-foot"><span class="pill">Automaquillaje</span><a href="#contacto">Consultar →</a></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ MEDIA KIT (marcas) ============ -->
+    <section class="kit" id="marcas">
+      <div class="kit-head">
+        <div>
+          <span class="eyebrow eyebrow-inv">✦ Para marcas · Media kit</span>
+          <h2 class="display-md inv">Números <em>reales</em>,<br>no promesas.</h2>
+        </div>
+        <p class="kit-note">Datos públicos de sus perfiles, tomados entre el 29 de septiembre y el 1 de octubre de 2026.</p>
+      </div>
+
+      <div class="kit-hero">
+        <div class="kh"><b>29.9K</b><span>seguidores en 4 cuentas</span></div>
+        <div class="kh"><b>465.7K</b><span>views en un solo TikTok</span></div>
+        <div class="kh"><b>96.7K</b><span>likes en un solo post de Instagram</span></div>
+        <div class="kh"><b>25.2%</b><span>engagement en su TikTok récord</span></div>
+      </div>
+
+      <div class="tabs" role="tablist" aria-label="Plataformas">
+        <button class="tab active" role="tab" aria-selected="true" aria-controls="p-ig" id="t-ig">Instagram</button>
+        <button class="tab" role="tab" aria-selected="false" aria-controls="p-tt" id="t-tt">TikTok</button>
+        <button class="tab" role="tab" aria-selected="false" aria-controls="p-yt" id="t-yt">YouTube</button>
+      </div>
+
+      <!-- Instagram -->
+      <div class="panel" id="p-ig" role="tabpanel" aria-labelledby="t-ig">
+        <div class="tiles">
+          <div class="tile"><span>Seguidores</span><b>18.6K</b><small>@makeupbyender</small></div>
+          <div class="tile"><span>Likes por post</span><b>278</b><small>típico de los últimos 10</small></div>
+          <div class="tile"><span>Comentarios por post</span><b>40</b><small>típico de los últimos 9</small></div>
+          <div class="tile"><span>Engagement</span><b>1.7%</b><small>(likes + comentarios) ÷ seguidores</small></div>
+        </div>
+        <div class="panel-grid">
+          <a class="viral" href="https://www.instagram.com/p/DczG-Rtj61o/" target="_blank" rel="noopener">
+            <div class="ph viral-img" style="--img:url('img/hair.jpg')"></div>
+            <div>
+              <span class="eyebrow eyebrow-inv">Post viral · sep 2026</span>
+              <h3>“El cabello así le cambia la personalidad a quien sea”</h3>
+              <div class="viral-nums"><span><b>96,724</b> likes</span><span><b>1,282</b> comentarios</span><span><b>5.2×</b> sus seguidores</span></div>
+            </div>
+          </a>
+          <figure class="chart-card">
+            <figcaption><b>Likes por post</b><span>9 posts recientes · el viral va aparte porque se sale de la escala</span></figcaption>
+            <div class="chart" id="chartIg" role="img" aria-label="Likes por post de Instagram"></div>
+          </figure>
+        </div>
+        <p class="foot">“Típico” = mediana: el valor del medio, que no se infla con un viral. Cuenta personal <a href="https://www.instagram.com/enderrrcolina/" target="_blank" rel="noopener">@enderrrcolina</a>: 805 seguidores.</p>
+      </div>
+
+      <!-- TikTok -->
+      <div class="panel" id="p-tt" role="tabpanel" aria-labelledby="t-tt" hidden>
+        <div class="tiles">
+          <div class="tile"><span>Seguidores</span><b>10.4K</b><small>@makeupbyenderr</small></div>
+          <div class="tile"><span>Likes totales</span><b>191.9K</b><small>en 43 publicaciones</small></div>
+          <div class="tile"><span>Likes por seguidor</span><b>18×</b><small>191.9K ÷ 10.4K</small></div>
+          <div class="tile"><span>Video récord</span><b>465.7K</b><small>views · sep 2026</small></div>
+        </div>
+        <div class="panel-grid">
+          <a class="viral" href="https://www.tiktok.com/@makeupbyenderr/video/7685541942922349844" target="_blank" rel="noopener">
+            <div class="viral-badge" aria-hidden="true">▶</div>
+            <div>
+              <span class="eyebrow eyebrow-inv">Video récord · 14 sep 2026</span>
+              <h3>Expo de bonsáis en Caracas: un plan de $6</h3>
+              <div class="viral-nums"><span><b>83.5K</b> likes</span><span><b>22.1K</b> compartidos</span><span><b>11.5K</b> guardados</span><span><b>416</b> comentarios</span></div>
+              <p class="viral-er">25.2% de engagement: 1 de cada 4 personas que lo vieron interactuó.</p>
+            </div>
+          </a>
+          <figure class="chart-card">
+            <figcaption><b>Sus 3 publicaciones más vistas</b><span>Views por publicación</span></figcaption>
+            <ul class="hbars">
+              <li><span class="hb-l">Bonsáis en Caracas (video)</span><span class="hb-t"><i style="--w:100%"></i></span><b>465.7K</b></li>
+              <li><span class="hb-l">Bonsáis: mis fotos favoritas</span><span class="hb-t"><i style="--w:4.3%"></i></span><b>20.1K</b></li>
+              <li><span class="hb-l">“Qué bendición vivir”</span><span class="hb-t"><i style="--w:1.4%"></i></span><b>6.5K</b></li>
+            </ul>
+          </figure>
+        </div>
+        <p class="foot">Engagement del récord = (likes + comentarios + guardados + compartidos) ÷ views.</p>
+      </div>
+
+      <!-- YouTube -->
+      <div class="panel" id="p-yt" role="tabpanel" aria-labelledby="t-yt" hidden>
+        <div class="tiles">
+          <div class="tile"><span>Vlogs publicados</span><b>8</b><small>desde agosto 2026</small></div>
+          <div class="tile"><span>Views totales</span><b>1,476</b><small>en 8 vlogs</small></div>
+          <div class="tile"><span>Suscriptores</span><b>86</b><small>@Makeupbyender</small></div>
+          <div class="tile"><span>Duración</span><b>34 min</b><small>vlog más largo · formato ideal para integraciones</small></div>
+        </div>
+        <figure class="chart-card chart-wide">
+          <figcaption><b>Views por vlog</b><span>Del primero (001) al más reciente (008) · los últimos llevaban horas o días publicados y siguen sumando</span></figcaption>
+          <div class="chart" id="chartYt" role="img" aria-label="Views por vlog de YouTube"></div>
+        </figure>
+        <p class="foot">Canal lanzado en agosto de 2026: es la plataforma con más espacio para crecer y la que permite integrar una marca en un video largo.</p>
+      </div>
+
+      <div class="kit-bottom">
+        <div class="brands">
+          <span class="eyebrow eyebrow-inv">Marcas, medios y artistas en su trabajo</span>
+          <div class="brand-row">
+            <span>Evas Magazine</span><span>Casa Dudamel</span><span>Cabanna</span><span>Sun Zapper</span><span>Juus</span><span>Mundiali Cosmetics</span><span>Topacio Lab</span><span>Fabiartist</span>
+          </div>
+        </div>
+        <div class="formats">
+          <span class="eyebrow eyebrow-inv">Formatos</span>
+          <ul>
+            <li>🎬 Reel / TikTok</li><li>📹 Integración en vlog</li><li>💄 Makeup & hair de campaña</li><li>📍 Cobertura de eventos</li>
+          </ul>
+          <a href="#contacto" class="btn btn-cream" data-brand>Pide el media kit completo →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ UN DÍA CON ENDER (seguidores) ============ -->
+    <section class="vlog" id="dia">
+      <div class="card vlog-card reveal">
+        <div class="vlog-copy">
+          <span class="eyebrow eyebrow-inv"><span class="dot-live"></span> YouTube · Vlog semanal</span>
+          <h2 class="display-md inv">Un día<br>con <em>Ender</em>.</h2>
+          <p>Campañas, fotos, clientas, eventos, mi primera vez en el circo y mi pizza favorita. Lo que no sale en el post, cada semana.</p>
+          <a href="https://www.youtube.com/@Makeupbyender" target="_blank" rel="noopener" class="btn btn-cream">▶ Ver el canal</a>
+        </div>
+        <div class="vlog-player">
+          <a class="ph vlog-thumb" href="https://www.youtube.com/@Makeupbyender/videos" target="_blank" rel="noopener" style="--img:url('img/vlog-thumb.jpg')" aria-label="Ver vlogs en YouTube">
+            <span class="ph-label">img/vlog-thumb.jpg</span>
+            <span class="play" aria-hidden="true">▶</span>
+          </a>
+          <ul class="episodes">
+            <li><a href="https://www.youtube.com/@Makeupbyender/videos" target="_blank" rel="noopener"><span class="ep-n">008</span> 4 eventos en una semana</a></li>
+            <li><a href="https://www.youtube.com/@Makeupbyender/videos" target="_blank" rel="noopener"><span class="ep-n">007</span> Semana de campañas, fotos, clientas y eventos</a></li>
+            <li><a href="https://www.youtube.com/@Makeupbyender/videos" target="_blank" rel="noopener"><span class="ep-n">006</span> Un día como hairstylist personal de Fabiartist</a></li>
+            <li><a href="https://www.youtube.com/@Makeupbyender/videos" target="_blank" rel="noopener"><span class="ep-n">005</span> Descubrí mi pizza favorita (y saludable)</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ESCRITORIO (ref. bychudy) ============ -->
+    <section class="dk" aria-label="Fuera del set: el escritorio de Ender">
+      <div class="dk-wall ph" style="--img:url('img/about.jpg')" aria-hidden="true"></div>
+      <div class="dk-top"><b>Ender — fuera del set</b><span id="osClock">Caracas</span></div>
+      <div class="dk-icons" id="desk">
+        <button class="ic" style="--x:20%;--y:12%" data-full="img/hero.jpg" data-title="portada_evas.jpg"><span class="ph ic-img" style="--img:url('img/hero.jpg')"></span><span class="ic-t">Portada Evas</span></button>
+        <button class="ic" style="--x:34%;--y:30%" data-full="img/p1.jpg" data-title="pecas_reales.jpg"><span class="ph ic-img" style="--img:url('img/p1.jpg')"></span><span class="ic-t">Pecas reales</span></button>
+        <button class="ic" style="--x:50%;--y:10%" data-full="img/about.jpg" data-title="montaña.jpg"><span class="ph ic-img" style="--img:url('img/about.jpg')"></span><span class="ic-t">Montaña</span></button>
+        <button class="ic" style="--x:62%;--y:34%" data-full="img/p4.jpg" data-title="el_cabello_96k.jpg"><span class="ph ic-img" style="--img:url('img/p4.jpg')"></span><span class="ic-t">El cabello · 96.7K</span></button>
+        <button class="ic" style="--x:74%;--y:14%" data-full="img/vlog-thumb.jpg" data-title="mis_26.jpg"><span class="ph ic-img" style="--img:url('img/vlog-thumb.jpg')"></span><span class="ic-t">Mis 26</span></button>
+        <button class="ic" style="--x:16%;--y:52%" data-full="img/p2.jpg" data-title="ana_k.jpg"><span class="ph ic-img" style="--img:url('img/p2.jpg')"></span><span class="ic-t">Ana K</span></button>
+        <button class="ic" style="--x:40%;--y:58%" data-full="img/style.jpg" data-title="casa_dudamel.jpg"><span class="ph ic-img" style="--img:url('img/style.jpg')"></span><span class="ic-t">Casa Dudamel</span></button>
+        <button class="ic" style="--x:56%;--y:62%" data-full="img/contenido.jpg" data-title="pizza_natura.jpg"><span class="ph ic-img" style="--img:url('img/contenido.jpg')"></span><span class="ic-t">Pizza Natura</span></button>
+        <button class="ic" style="--x:80%;--y:52%" data-full="img/p3.jpg" data-title="unposted.jpg"><span class="ph ic-img" style="--img:url('img/p3.jpg')"></span><span class="ic-t">Unposted</span></button>
+        <button class="ic" style="--x:28%;--y:76%" data-full="img/vlog.jpg" data-title="evento_cabanna.jpg"><span class="ph ic-img" style="--img:url('img/vlog.jpg')"></span><span class="ic-t">Evento Cabanna</span></button>
+      </div>
+      <nav class="dock" aria-label="Redes de Ender">
+        <a class="app app-ig" href="https://www.instagram.com/makeupbyender/" target="_blank" rel="noopener" aria-label="Instagram @makeupbyender"><span>IG</span></a>
+        <a class="app app-tt" href="https://www.tiktok.com/@makeupbyenderr" target="_blank" rel="noopener" aria-label="TikTok @makeupbyenderr"><span>♪</span></a>
+        <a class="app app-yt" href="https://www.youtube.com/@Makeupbyender" target="_blank" rel="noopener" aria-label="YouTube @Makeupbyender"><span>▶</span></a>
+        <i class="dock-sep"></i>
+        <a class="app app-notes" href="#dia" aria-label="Vlogs"><span>✎</span></a>
+        <a class="app app-photos" href="#portafolio" aria-label="Portafolio"><span>✿</span></a>
+        <a class="app app-mail" href="#contacto" aria-label="Contacto"><span>✉</span></a>
+        <i class="dock-sep"></i>
+        <span class="app app-trash" title="Aquí va el maquillaje pesado" aria-label="Papelera: aquí va el maquillaje pesado"><span>🗑</span></span>
+      </nav>
+      <div class="pv" id="preview" hidden>
+        <div class="pv-bar"><button class="pv-x" id="pvClose" aria-label="Cerrar"></button><i></i><i></i><span id="pvTitle">foto.jpg</span></div>
+        <div class="pv-img ph" id="pvImg"></div>
+      </div>
+    </section>
+
+    <!-- ============ MUNDO ENDER (ref. Karo) ============ -->
+    <section class="jw" id="redes">
+      <div class="jw-stage">
+        <h2 class="jw-title" aria-label="Únete al mundo Ender"><span>Únete al</span><span>mundo Ender</span></h2>
+        <div class="ph jw-photo" style="--img:url('img/vlog-thumb.jpg')" aria-hidden="true"></div>
+      </div>
+      <p class="jw-sub">La comunidad para ver <b>nuevos looks</b>, <b>planes en Caracas</b>, <b>vlogs</b> y todo el <b>detrás de cámara</b>.</p>
+      <div class="jw-pills">
+        <a href="https://www.instagram.com/makeupbyender/" target="_blank" rel="noopener">Instagram · 18.6K</a>
+        <a href="https://www.tiktok.com/@makeupbyenderr" target="_blank" rel="noopener">TikTok · 10.4K</a>
+        <a href="https://www.youtube.com/@Makeupbyender" target="_blank" rel="noopener">YouTube · vlog semanal</a>
+        <a href="https://www.instagram.com/enderrrcolina/" target="_blank" rel="noopener">@enderrrcolina</a>
+      </div>
+    </section>
+
+    <!-- ============ RECONOCIMIENTOS ============ -->
+    <section class="card press reveal">
+      <span class="eyebrow">✦ Reconocido por</span>
+      <div class="press-row">
+        <span>Beauty Fair Awards '24</span>
+        <span>Beauty Fair Awards '25</span>
+        <span>Evas Magazine</span>
+        <span>Revista Domingo</span>
+      </div>
+    </section>
+
+    <!-- ============ CONTACTO ============ -->
+    <section class="contact" id="contacto">
+      <div class="card contact-card reveal">
+        <span class="eyebrow">✦ Hablemos</span>
+        <h2 class="display">¿Lista la<br><em>cita</em>?</h2>
+        <p class="lead">Clientas: cuéntame la fecha, el evento y el look que sueñas. Marcas: cuéntame la campaña y te envío el media kit completo.</p>
+        <form class="form" id="bookForm">
+          <label>Nombre<input name="nombre" required placeholder="Tu nombre o tu marca"></label>
+          <label>Fecha<input name="fecha" type="date"></label>
+          <label>Servicio
+            <select name="servicio" id="servicio">
+              <option>Novias</option>
+              <option>Social & eventos</option>
+              <option>Editorial & pasarela</option>
+              <option>Hairstylist personal</option>
+              <option>Colaboración de marca</option>
+              <option>Clases 1:1</option>
+            </select>
+          </label>
+          <label class="full">Mensaje<textarea name="mensaje" rows="3" placeholder="Cuéntame sobre tu look o tu campaña…"></textarea></label>
+          <button class="btn btn-dark full" type="submit">Enviar por WhatsApp →</button>
+        </form>
+        <div class="blob blob-c" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section class="closing" aria-label="Cierre">
+      <p>Siempre piel <em>real</em>.</p>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="card footer-card">
+      <b class="footer-brand">ENDER COLINA © <span id="year">2026</span></b>
+      <span class="footer-mid">Makeup · Hair · Content — Caracas, Venezuela</span>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/makeupbyender/" target="_blank" rel="noopener" aria-label="Instagram makeupbyender">IG</a>
+        <a href="https://www.tiktok.com/@makeupbyenderr" target="_blank" rel="noopener" aria-label="TikTok">TT</a>
+        <a href="https://www.youtube.com/@Makeupbyender" target="_blank" rel="noopener" aria-label="YouTube">YT</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="tip" id="tip" role="status" aria-live="polite" hidden></div>
+  <script src="script.js"></script>
+</body>
+</html>
